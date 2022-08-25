@@ -31,7 +31,7 @@ export default function App() {
     setResult(parseInt(firstNumber) - parseInt(secondNumber));
     const historyObject = {
       text: `${firstNumber} - ${secondNumber} = ${
-        parseInt(firstNumber) + parseInt(secondNumber)
+        parseInt(firstNumber) - parseInt(secondNumber)
       }`,
       key: history.length + 1,
     };
